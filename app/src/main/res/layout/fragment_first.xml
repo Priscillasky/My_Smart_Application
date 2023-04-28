@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="No things!"
+        android:layout_marginStart="130dp"
+        android:textSize="26dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240dp"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:text="It looks like we didnt discover any devices\n Try an option below"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F3D306"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Smart Home"
+            android:textSize="28dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="11dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_search_24"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="20dp"
+            android:tint="@color/white"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_list_24"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="20dp"
+            android:tint="@color/white"
+            />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="73dp"
+        android:src="@drawable/things"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="350dp"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="35dp"
+        android:backgroundTint="#05C9E3"
+        android:layout_marginBottom="69dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/baseline_add_24"
+        app:borderWidth="0dp"
+        tools:ignore="SpeakableTextPresentCheck"
+
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_alarm_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="35dp"
+        android:backgroundTint="#05C9E3"
+        app:borderWidth="0dp"
+        android:src="@drawable/baseline_saved_search_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_support_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="35dp"
+        android:backgroundTint="#05C9E3"
+        app:borderWidth="0dp"
+        android:src="@drawable/baseline_view_compact_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginStart="35dp"
+        android:backgroundTint="#05C9E3"
+        app:borderWidth="0dp"
+        android:src="@drawable/baseline_home_24"
+        tools:ignore="SpeakableTextPresentCheck"
+
+
+
+        />
+
+    <TextView
+        android:id = "@+id/add_alarm_action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="100dp"
+        android:text="Run discovery"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        android:textColor="#05C9E3"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id = "@+id/add_support_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:text="Add a cloud account"
+        android:layout_marginTop="540dp"
+        android:layout_marginStart="100dp"
+        android:textColor="#05C9E3"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/add_support_action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:text=" View our supported devices"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="100dp"
+        android:textColor="#05C9E3"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/add_cloud_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Contact Support"
+        android:layout_marginEnd="9dp"
+        android:layout_marginTop="610dp"
+        android:textColor="#05C9E3"
+        android:textStyle="bold"
+        android:layout_marginStart="100dp"
+        android:textSize="20dp"
+
+        />
+
+
+
+</FrameLayout>

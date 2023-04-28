@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F3D306"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:text="My Smart Home "
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#D8D8D7"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Settings"
+        android:textSize="24dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="11dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/baseline_account_circle_24"
+        android:tint="#F3D306" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moses"
+        android:textSize="20dp"
+        style="bold"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kmntanda@gmail.com"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="80dp"
+        android:tint="@color/gray"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:background="#D8D8D7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Settings"
+        android:layout_marginTop="190dp"
+        android:textSize="24dp"
+        android:layout_marginStart="11dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_reaction_24"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="11dp"
+        android:tint="#F3D306"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accounts and Hub"
+        android:textSize="20dp"
+        style="bold"
+        android:layout_marginTop="246dp"
+        android:layout_marginStart="80dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_people_alt_24"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="11dp"
+        android:tint="#F3D306"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clients"
+        android:textSize="20dp"
+        style="bold"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="80dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_location_on_24"
+        android:layout_marginTop="389dp"
+        android:layout_marginStart="11dp"
+        android:tint="#F3D306"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="20dp"
+        style="bold"
+        android:layout_marginTop="385dp"
+        android:layout_marginStart="80dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="430dp"
+        android:background="#D8D8D7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice"
+        android:layout_marginTop="438dp"
+        android:textSize="24dp"
+        android:layout_marginStart="11dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_record_voice_over_24"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="11dp"
+        android:tint="#F3D306"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice Assistants"
+        android:textSize="20dp"
+        style="bold"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="80dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="567dp"
+        android:background="#D8D8D7"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/settings"
+        android:layout_marginTop="650dp"
+        android:layout_marginStart="11dp"
+        android:tint="#D8D8D7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Permissions"
+        android:layout_marginTop="572dp"
+        android:textSize="24dp"
+        android:layout_marginStart="11dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings &amp; Permissions"
+        android:textSize="20dp"
+        style="bold"
+        android:layout_marginTop="645dp"
+        android:layout_marginStart="80dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/darker_gray"/>
+
+
+   <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="369dp"
+       android:background="@android:color/darker_gray"/>
+
+
+
+
+
+
+
+
+</FrameLayout>

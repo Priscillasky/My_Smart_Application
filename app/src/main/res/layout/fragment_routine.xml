@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RoutinesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Set your daily routines here" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Routines "
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F3D306"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="65dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_list_24"
+        android:layout_marginStart="370dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="11dp"
+        app:tint="@color/white"
+
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="100dp"
+        app:tint="#636262"
+        android:src="@drawable/outline_update_24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click '+' button below to get started"
+        android:textAlignment="center"
+        android:layout_marginTop="390dp"
+        android:textSize="18dp"
+        android:layout_marginStart="50dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#05C9E3"
+        android:src="@drawable/baseline_add_24"
+        android:onClick="onadd_fab"
+        app:borderWidth="0dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+
+</FrameLayout>

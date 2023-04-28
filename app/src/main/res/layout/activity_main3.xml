@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F3D306"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new Routine "
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="65dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cancel_24"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+        app:tint="@color/white"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/outline_done_outline_24"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="18dp"
+        app:tint="@color/white"
+
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/routineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Routine Name"
+        android:layout_marginTop="90dp"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When"
+        android:textSize="24sp"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/eventTv"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#D8D8D7"
+        android:layout_marginTop="200dp"
+        />
+    <TextView
+        android:id="@+id/addedEventTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Want this routine to run automatically?"
+        android:tint="@color/gray"
+        android:layout_marginTop="220dp"
+       android:textSize="15sp"
+       android:layout_marginStart="85dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add an event below"
+        android:tint="@color/gray"
+        android:layout_marginTop="250dp"
+        android:textSize="15sp"
+        android:layout_marginStart="140dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/third_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="340dp"
+        android:backgroundTint="#05C9E3"
+        android:tint="@color/white"
+        android:src="@drawable/baseline_add_24"
+        android:onClick="addEvent"
+        app:borderWidth="0dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add event"
+        android:tint="@color/gray"
+        android:layout_marginTop="320dp"
+        android:textSize="24sp"
+        android:layout_marginStart="220dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run these actions"
+        android:tint="@color/gray"
+        android:layout_marginTop="360dp"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp" />
+    <RelativeLayout
+        android:id="@+id/actionTv"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#D8D8D7"
+        android:layout_marginTop="396dp"
+        />
+    <TextView
+        android:id="@+id/addedAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No actions .Tap below to add one."
+        android:tint="@color/gray"
+        android:layout_marginTop="420dp"
+        android:textSize="15sp"
+        android:layout_marginStart="85dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/routine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="340dp"
+        android:backgroundTint="#05C9E3"
+        android:tint="@color/white"
+        android:src="@drawable/baseline_add_24"
+        android:onClick="things"
+        app:borderWidth="0dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add action"
+        android:tint="@color/gray"
+        android:layout_marginTop="520dp"
+        android:textSize="24sp"
+        android:layout_marginStart="220dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="But only if"
+        android:tint="@color/gray"
+        android:layout_marginTop="560dp"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#D8D8D7"
+        android:layout_marginTop="596dp"
+        />
+   <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add an event before adding conditions"
+    android:tint="@color/gray"
+    android:layout_marginTop="620dp"
+    android:textSize="15sp"
+    android:layout_marginStart="85dp" />
+
+
+
+
+</FrameLayout>

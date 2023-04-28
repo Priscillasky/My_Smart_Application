@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FavouriteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" No Favourites \nAdd your favourite routines for easy access here\nTap the '+' button to add your favourite routines!"
+        android:textSize="26dp"
+        android:textAlignment="center"
+        android:layout_marginTop="300dp"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="100dp"
+        android:src="@drawable/baseline_star_border_24"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F3D306"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Smart Home"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="65dp"
+        />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_edit_24"
+            android:layout_marginStart="370dp"
+            android:layout_marginTop="11dp"
+            app:tint="@color/white"
+
+            />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="#05C9E3"
+        android:src="@drawable/baseline_add_24"
+        app:borderWidth="0dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</FrameLayout>

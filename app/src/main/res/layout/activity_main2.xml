@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F3D306"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a new Routine "
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="65dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_back_24"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+
+
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/second_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="11dp"
+        android:backgroundTint="#05C9E3"
+        android:tint="@color/white"
+        app:borderWidth="0dp"
+        android:onClick="route"
+        android:src="@drawable/baseline_add_24"
+
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new Routine"
+        android:textSize="26dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginStart="79dp"
+        android:textStyle="bold"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</FrameLayout>
