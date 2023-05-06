@@ -69,19 +69,20 @@
         android:id="@+id/addedEventTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Want this routine to run automatically?"
+        android:hint="Want this routine to run automatically?"
         android:tint="@color/gray"
         android:layout_marginTop="220dp"
        android:textSize="15sp"
        android:layout_marginStart="85dp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add an event below"
-        android:tint="@color/gray"
-        android:layout_marginTop="250dp"
-        android:textSize="15sp"
-        android:layout_marginStart="140dp" />
+<!--    <TextView-->
+<!--        android:id="@+id/addEventTv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Add an event below"-->
+<!--        android:tint="@color/gray"-->
+<!--        android:layout_marginTop="250dp"-->
+<!--        android:textSize="15sp"-->
+<!--        android:layout_marginStart="140dp" />-->
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/third_activity"

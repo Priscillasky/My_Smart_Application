@@ -9,17 +9,21 @@ import com.google.android.material.textfield.TextInputEditText
 
 class MainActivity3 : AppCompatActivity() {
 
-    lateinit var eventTv: TextView
-    lateinit var actionTv: TextView
-    lateinit var routineInput: TextInputEditText
+    private lateinit var eventTv: TextView
+    private lateinit var actionTv: TextView
+    private lateinit var routineInput: TextInputEditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
 
         eventTv = findViewById<TextView>(R.id.addedEventTv)
-        actionTv = findViewById<TextView>(R.id.actionTv)
+        actionTv = findViewById<TextView>(R.id.addedAction)
         routineInput = findViewById<TextInputEditText>(R.id.routineName)
+
+
+
+
 
 
         val extras = intent.extras
@@ -36,13 +40,19 @@ class MainActivity3 : AppCompatActivity() {
                     eventTv.text = "$date"
                 } else {
                     eventTv.text = "Date and Time \n The dateTime is $date"
+                    actionTv.text = "Notification \n Send Notification : $action"
+
+
+
                 }
             }
-                eventTv.setCompoundDrawablesWithIntrinsicBounds(R.drawable.outline_done_outline_24, 0,R.drawable.settings,0)
-
-                actionTv.text = "Notification \n Send Notification : $action"
+                eventTv.setCompoundDrawablesWithIntrinsicBounds(R.drawable.access_time_filled_24, 0,R.drawable.settings,0)
                 actionTv.setCompoundDrawablesWithIntrinsicBounds(R.drawable.chat_bubble_24, 0,R.drawable.settings,0)
+
+
             }
+
+
         }
 
 

@@ -5,7 +5,7 @@
         android:icon="@drawable/baseline_star_border_24"
         android:id= "@+id/fav"/>
     <item android:title="Things"
-        android:icon="@drawable/things"
+        android:icon="@drawable/baseline_dehaze_24"
         android:id = "@+id/things"/>
     <item android:title="Routines"
         android:icon = "@drawable/outline_update_24"
